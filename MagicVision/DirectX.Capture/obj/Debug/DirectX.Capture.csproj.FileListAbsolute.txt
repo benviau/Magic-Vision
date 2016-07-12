@@ -12,3 +12,10 @@ C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\bin\Deb
 C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\obj\Debug\DirectX.Capture.dll
 C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\obj\Debug\DirectX.Capture.pdb
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\bin\Debug\DirectX.Capture.dll
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\bin\Debug\DirectX.Capture.pdb
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\bin\Debug\DShowNET.dll
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\bin\Debug\DShowNET.pdb
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\obj\Debug\DirectX.Capture.csprojResolveAssemblyReference.cache
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\obj\Debug\DirectX.Capture.dll
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\obj\Debug\DirectX.Capture.pdb

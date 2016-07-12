@@ -3,3 +3,8 @@ C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\bin\Rel
 C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\bin\Release\DShowNET.dll
 C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\obj\Release\ResolveAssemblyReference.cache
 C:\Users\Pete\Dropbox\Projects\Fun\PoolVision\PoolVision\DirectX.Capture\obj\Release\DirectX.Capture.dll
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\bin\Release\DirectX.Capture.dll
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\bin\Release\DirectX.Capture.xml
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\bin\Release\DShowNET.dll
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\obj\Release\DirectX.Capture.csprojResolveAssemblyReference.cache
+C:\GitHub\mtg-librarian\MagicVision\DirectX.Capture\obj\Release\DirectX.Capture.dll

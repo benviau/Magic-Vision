@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using MySql.Data.MySqlClient;
 using System.Data;
-
+using System.Windows.Forms;
 
 namespace PoolVision
 {
@@ -69,8 +69,15 @@ namespace PoolVision
 
         public MySqlClient(String SqlConString)
         {
-            sql = new MySqlConnection(SqlConString);
-            sql.Open();
+            try
+            {
+                sql = new MySql.Data.MySqlClient.MySqlConnection(SqlConString);
+                sql.Open();
+            }
+            catch (MySql.Data.MySqlClient.MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         public DateTime ConvertFromUnixTimestamp(double timestamp)

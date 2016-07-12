@@ -1,6 +1,8 @@
-﻿/* Magic Vision
- * Created by Peter Simard
- * You are free to use this source code any way you wish, all I ask for is an attribution
+﻿/* MTG Librarian 
+ * Created by Ben Viau
+ * 
+ * Adapted from Magic Vision - a video card detection program written by Peter Simard
+ * "You are free to use this source code any way you wish, all I ask for is an attribution" - Peter Simard
  */
 
 using System;
@@ -39,10 +41,12 @@ namespace PoolVision
         private List<ReferenceCard> referenceCards = new List<ReferenceCard>();
         static readonly object _locker = new object();
 
-        public static string SqlConString = "SERVER=127.0.0.1;" +
-                "DATABASE=magiccards;" +
-                "UID=root;" +
-                "Allow Zero Datetime=true";
+        public static string SqlConString = "server=localhost;" +
+                                            "port=3306;" +
+                                            "database=magiccards;" +
+                                            "uid=mtgUser;" +
+                                            "pwd=WinnebagoWarriorWizard;" + 
+                                            "Allow Zero Datetime=true;";
 
         public MySqlClient sql = new MySqlClient(SqlConString);
 

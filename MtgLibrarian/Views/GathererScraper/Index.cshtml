@@ -1,0 +1,15 @@
+﻿@using MtgPrism.GathererScraper.Data
+
+@{
+    ViewBag.Title = "Gatherer Scraper";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm("Scrape", "GathererScraper", FormMethod.Post, new { id = "ScrapeForm" }))
+        {
+            <textarea id="setsToScrape" name="setsToScrape"></textarea>
+            <button type="submit">Scrape</button>
+        }
+    </div>
+</div>

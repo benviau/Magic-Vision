@@ -1,0 +1,30 @@
+﻿@using MtgLibrarian.Models
+@using MtgPrism.GathererScraper.Data
+
+@{
+    ViewBag.Title = "Gatherer Scraper Results";
+}
+
+@model GathererScraperResult
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Gatherer Scraper</h2>
+
+        <h3>Successfully Scraped Sets:</h3>
+        <ul>
+            @foreach (string scrapedSet in Model.ScrapedSets)
+            {
+                <li>@scrapedSet</li>
+            }
+        </ul>
+
+        <h3>Errors</h3>
+        <ul>
+            @foreach (string error in Model.Errors)
+            {
+                <li>@error</li>
+            }
+        </ul>
+    </div>
+</div>
